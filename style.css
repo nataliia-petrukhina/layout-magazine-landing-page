@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+s * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(240, 240, 189, 0.79);
+}
+
+.circle-item {
+  display: flex;
+  border: 1px solid black;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.circ {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.9rem;
+  margin: 3rem;
+  padding-top: 5px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 4.6rem;
+}
+
+h1 {
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 9rem;
+  font-weight: 400;
+}
+
+.wall {
+  height: 8rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.wall-1 {
+  color: rgb(94, 115, 98);
+}
+
+.paper-1 {
+  color: rgb(107, 72, 72);
+}
+
+.catalogue {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  align-items: start;
+
+  padding-left: 2rem;
+}
+
+section {
+  display: flex;
+  gap: 3rem;
+}
+
+.foto {
+  display: flex;
+  align-self: start;
+  margin: -2rem;
+  height: 47rem;
+  /* width: 10rem; */
+}
+
+div h2 {
+  
+  padding-top: -33rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+div-foto{
+  display: flex;
+
+}
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color:  crimson;
+  height: 1px;
+}
